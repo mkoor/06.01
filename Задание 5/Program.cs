@@ -16,7 +16,7 @@ namespace Задание_5
             int b = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите количество дырочек на ряд: ");
             int c = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите длинну свободного конца шнурка (см): ");
+            Console.WriteLine("Введите длину свободного конца шнурка (см): ");
             int d = Convert.ToInt32(Console.ReadLine());
             int length = (d * 2 + (c - 1) * 2 * (a + b) + a);
             Console.WriteLine("Длина шнурка вашего ботинка: " + length + " см");
